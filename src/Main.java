@@ -5,12 +5,14 @@ public class Main {
         ArrayList<Volaille> listeVolailles = new ArrayList<>();
         ArrayList<Double> listePrix = new ArrayList<>();
 
+       // Creating new objects of the class Volaille.
         Volaille v1 = new Volaille(125,21,1.7,'P');
         Volaille v2 = new Volaille(1276,21,2.7,'C');
         Volaille v3 = new Volaille(4,21,1.7,'P');
         Volaille v4 = new Volaille(6,21,0.8,'C');
 //        Volaille v5 = new Volaille(457,21,1.4,'C');
 
+       // Adding the objects to the arraylist and then printing them out.
         Elevage e1 = new Elevage(listeVolailles,listePrix);
         e1.ajoutElevage(v1);
         e1.ajoutElevage(v2);
