@@ -34,18 +34,13 @@ public class Elevage extends Volaille {
         }
     }
 
-    /**
-     * // Java
-     * public void maj() {
-     *         for (int i = 0; i < listeVolailles.size(); i++) {
-     *             System.out.print("Matricule : " + listeVolailles.get(i).getNumeroMat());
-     *             System.out.println("Entrez un nouvel age : ");
-     *             listeVolailles.get(i).age = Terminal.lireInt();
-     *             System.out.println("Entrez un nouveau poids : ");
-     *             listeVolailles.get(i).poids = Terminal.lireDouble();
-     *         }
-     *     }
-     */
+      /**
+    * Method to update - mis a jour le list des vollaile . It takes a Canard and a Poulet as parameters, and then loops through the listeVolailles list
+    * 
+    * @param c Canard
+    * @param p Poulet
+    */
+ 
     public void maj() {
         for (int i = 0; i < listeVolailles.size(); i++) {
             System.out.print("Matricule : " + listeVolailles.get(i).getNumeroMat());
